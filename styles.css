@@ -101,7 +101,6 @@ header img {
     width: 13px;
     height: 8px;
     margin-left: 10px;
-    background-image: url('./assets/icons/down-arrow.svg');
 }
 
 /* section #1 */
@@ -231,7 +230,8 @@ main {
     display: inline-block;
     width: 15px;
     height: 15px;
-    margin-left: 10px;/* 
+    margin-left: 10px;
+    /* 
     margin-top: 10px; */
     background-image: url(./assets/icons/trending-down\ 1.svg);
     background-size: cover;
@@ -243,7 +243,8 @@ main {
     display: inline-block;
     width: 15px;
     height: 15px;
-    margin-left: 10px;/* 
+    margin-left: 10px;
+    /* 
     margin-top: 10px; */
     background-image: url(./assets/icons/trending-up\ 1.svg);
     background-size: cover;
@@ -264,6 +265,7 @@ main {
 .main-currency-table:nth-child(1) .currency-table--date p {
     font-size: 1.2rem;
     line-height: 1.5rem;
+    font-weight: 300;
     color: var(--warm-black);
 }
 
@@ -282,7 +284,163 @@ main {
     line-height: 1.5rem;
     color: var(--warm-black);
 }
+
 /* section #2 */
+
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--black);
+}
+
+.main-product-detail #div-logo {
+    position: absolute;
+    left: calc(50% - 118px);
+    top: 10px;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+}
+
+.main-product-detail #div-logo img {
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+    background-repeat: no-repeat;
+}
+
+.product-details--batata-logo {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    top: -10px;
+    left: calc(50% - 20px);
+    background-image: url(./assets/icons/batata_right.svg);
+}
+
+.product-detail--tittle {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.product-detail--tittle h2{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--off-white);
+}
+
+.product-detail--tittle p {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.product-details--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    min-height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--warm-black);
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-details--card .clock{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url(./assets/icons/clock.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-details--card .eye{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url(./assets/icons/eye\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-details--card .dollar{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url(./assets/icons/dollar-sign.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-details--card .check{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url(./assets/icons/check-circle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-details--card .product--card-title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+.product-details--card .product--card-body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
 /* section #3 */
+
+.bitcoin-img-container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image:url(./assets/img/bitcoinbaby2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bitcoin-img-container h2{
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    text-align: center;
+}
+
 /* section #4 */
+
+
 /* footer */
